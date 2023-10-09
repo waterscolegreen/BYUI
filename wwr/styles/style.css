@@ -126,3 +126,7 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+
+img.mountains{
+    width:100%
+}
