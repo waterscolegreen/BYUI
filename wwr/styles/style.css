@@ -1,132 +1,130 @@
 /* By Nicole Green */
-#content{
-    max-width: 1600px;
-    margin: 0 auto;
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-nav a{
-    text-align: center;
-    text-decoration: none;
-    color:#EFFAFF;
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #effaff;
 
-    /* border-radius:10px;
+  /* border-radius:10px;
     padding: 5px;
     margin:10px; */
 }
 
-nav a:hover{
-    background-color: #EFFAFF;
-    color:#429AD2;
+nav a:hover {
+  background-color: #effaff;
+  color: #429ad2;
 }
 
-#hero-msg{
-    text-align: center;
+#hero-msg {
+  text-align: center;
 }
 
-#hero-msg h4{
-    text-align: center;
+#hero-msg h4 {
+  text-align: center;
 }
 
-.button-box{
-    text-align: center;
+.button-box {
+  text-align: center;
 }
 
-h1{
-    color:#063F6E;
+h1 {
+  color: #063f6e;
 }
 
-main section{
-    text-align: center;
+main section {
+  text-align: center;
 }
 
-#background{
-    height: 725px;
-    background-color: #429AD2;
+#background {
+  height: 725px;
+  background-color: #429ad2;
 }
 
-body{
-    background-color:#EFFAFF;
+body {
+  background-color: #effaff;
 }
 
-header{
-    background-color:#063F6E;
+header {
+  background-color: #063f6e;
 }
 
-.book{
-    background-color:#063F6E;
-    text-decoration: none;
-    color:#EFFAFF;
+.book {
+  background-color: #063f6e;
+  text-decoration: none;
+  color: #effaff;
 }
 
-.book:hover{
-    background-color:#429AD2;
+.book:hover {
+  background-color: #429ad2;
 }
 
-.join{
-    background-color:#429AD2;
+.join {
+  background-color: #429ad2;
 }
 
-.join hover{
-    background-color:#063F6E;
+.join hover {
+  background-color: #063f6e;
 }
 
-#background{
-    background-color:#EFFAFF;
+#background {
+  background-color: #effaff;
 }
 
-.msg{
-    background-color:#429AD2;
+.msg {
+  background-color: #429ad2;
 }
 
-footer{
-    background-color:#063F6E;
-    color:#EFFAFF;
-    text-decoration: none;
+footer {
+  background-color: #063f6e;
+  color: #effaff;
+  text-decoration: none;
 }
 
-footer a{
-    color:#EFFAFF;
-    text-decoration: none;
+footer a {
+  color: #effaff;
+  text-decoration: none;
 }
 
-
-
-home-title{
-    color:red;
+home-title {
+  color: red;
 }
 
-h4{
-    color:#429AD2;
+h4 {
+  color: #429ad2;
 }
 
-msg h2{
-    color:#063F6E;
+msg h2 {
+  color: #063f6e;
 }
 
-msg p{
-    color:red;
+msg p {
+  color: red;
 }
 
-.icon{
-    width: 80px;
+.icon {
+  width: 80px;
 }
 
-.logo{
-    width:80px;
+.logo {
+  width: 80px;
 }
 
-#hero-img{
-    width:100%
+#hero-img {
+  width: 100%;
 }
 
-footer p{
-    font-size: 1.2em;
+footer p {
+  font-size: 1.2em;
 }
 
-footer p a:hover{
-    text-decoration: underline;
+footer p a:hover {
+  text-decoration: underline;
 }
 
-img.mountains{
-    width:100%
+img.mountains {
+  width: 100%;
 }
