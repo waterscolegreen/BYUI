@@ -1,4 +1,7 @@
 /* By Nicole Green */
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:wght@100&family=Montserrat:wght@100&display=swap");
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -8,10 +11,8 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: #effaff;
-
-  /* border-radius:10px;
-    padding: 5px;
-    margin:10px; */
+  font-family: "kanit";
+  padding: 35px;
 }
 
 nav a:hover {
@@ -39,6 +40,10 @@ main section {
   text-align: center;
 }
 
+main section img{
+  box-sizing: border-box;
+}
+
 #background {
   height: 725px;
   background-color: #429ad2;
@@ -46,6 +51,10 @@ main section {
 
 body {
   background-color: #effaff;
+  font-family: 'kanit' , 'monserat' , arial;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -56,6 +65,11 @@ header {
   background-color: #063f6e;
   text-decoration: none;
   color: #effaff;
+  font-family: "kanit", sans-serif, arial;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 50px;
 }
 
 .book:hover {
@@ -64,6 +78,10 @@ header {
 
 .join {
   background-color: #429ad2;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .join hover {
@@ -76,12 +94,16 @@ header {
 
 .msg {
   background-color: #429ad2;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer {
   background-color: #063f6e;
   color: #effaff;
   text-decoration: none;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer a {
@@ -89,28 +111,32 @@ footer a {
   text-decoration: none;
 }
 
-home-title {
-  color: red;
+.home-title {
+  color: #063f6e;
+  font-family: "Dela Gothic One", sans-serif, Arial;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
   color: #429ad2;
+  font-family: "kanit", sans-serif, arial;
 }
 
-msg h2 {
-  color: #063f6e;
-}
-
-msg p {
-  color: red;
+.msg p {
+  color: #effaff;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 .icon {
   width: 80px;
+  padding-top:10px;
 }
 
 .logo {
   width: 80px;
+  border-radius: 50%;
 }
 
 #hero-img {
@@ -127,4 +153,45 @@ footer p a:hover {
 
 img.mountains {
   width: 100%;
+}
+
+.cards {
+  color: #063f6e;
+}
+
+h2 {
+  font-family: "Dela Gothic One", sans-serif, Arial;
+  margin: 0;
+}
+
+.more-than-thrill {
+  color: #effaff;
+}
+
+p {
+  font-family: "kanit", sans-serif, arial;
+}
+
+#logo-link{
+  padding: 5px;
+}
+
+footer .social img{
+  padding-top:15px;
+}
+
+.rivers-card{
+  margin: 200px 0;
+}
+
+.camping-card{
+  margin: 200px 0;
+}
+
+.rapids-card{
+  margin: 200px 0;
+}
+
+.card-img{
+  border: 10px solid #429ad2;
 }
