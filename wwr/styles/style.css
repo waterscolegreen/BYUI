@@ -291,9 +291,12 @@ footer .social img{
     #hero-msg h4 {
         display: none;
     }
+    #hero-msg h1{
+      color:#063f6e;
+    }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
+        color: #063f6e;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
