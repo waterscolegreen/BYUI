@@ -12,6 +12,7 @@ header {
   background-color: #063f6e;
   display: grid;
   grid-template-columns: 150px auto;
+  opacity: 80%;
 }
 
 .logo {
@@ -163,13 +164,8 @@ footer a {
 }
 
 h4 {
-  color: #063f6e;
-  background: #effaff;
+  color: #effaff;
   border-radius: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: 0px;
-  margin-right: 0px;
   font-family: "kanit", sans-serif, arial;
   text-align: center;
 }
