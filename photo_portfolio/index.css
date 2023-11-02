@@ -4,7 +4,7 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: 500px auto 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   background: #cd92c1;
   /* opacity: 80%; */
 }
@@ -32,7 +32,6 @@ nav a {
 
 nav a:hover {
   background-color: #edd0e8;
-  padding: 50px;
 }
 
 .book-now {
@@ -53,4 +52,5 @@ nav a:hover {
   border-radius: 15px;
   font-family: "lato", sans-serif;
   margin-left: 20px;
+  grid-column: 9/11;
 }
