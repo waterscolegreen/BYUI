@@ -157,6 +157,10 @@ nav a:hover {
   line-height: 3em;
 }
 
+.wireframes{
+  width: 40%;
+}
+
 .top {
   grid-area: top;
   border-left: 1px solid;
