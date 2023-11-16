@@ -3,6 +3,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:wght@100&family=Montserrat:wght@100&display=swap");
 
+
+/* INDEX CSS */
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -267,6 +270,67 @@ footer .social img {
   opacity: 0.6;
   transform: scale(1.1);
 }
+
+/* -------------------------------- FAQ CSS ---------------------------------- */
+
+.faq-title-box{
+  display:grid;
+  grid-template-columns: 1fr;
+  margin: 0px;
+}
+
+.faq-title-img{
+  width: 100%;
+  opacity: 70%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin-top: -100px;
+  z-index: -1
+}
+
+.faq-title{
+  grid-row: 1/2;
+  grid-column: 1/2;
+  z-index: 1;
+  text-align: center;
+  font-family: 'Dela Gothic One';
+  margin-top: 50px;
+}
+
+.faq-description{
+  color: #063f6e;
+  margin-top: 130px;
+  text-align: center;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.faq-main{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 70px;
+}
+
+.faq-heading{
+  margin-bottom: 0px;
+  color: #063f6e;
+  font-size: 25px;
+}
+
+.faq-box{
+  border: 2px solid #063f6e;
+  background-color: #429ad2;
+  opacity: 80%;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 0px;
+  box-shadow: 5px 5px 10px gray;
+}
+
+
+
+/* --------------------------------media query-------------------------------- */
 
 @media screen and (max-width: 900px) {
   #hero,
