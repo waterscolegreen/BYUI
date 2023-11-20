@@ -174,10 +174,18 @@ nav{
     justify-items: center;
 }
 
+.service-icon-portraits:hover{
+    transform:scale(1.2);
+}
+
 .service-icon-families{
     grid-column: 3/4;
     grid-row: 2/3;
     width: 100px;
+}
+
+.service-icon-families:hover{
+    transform:scale(1.2);
 }
 
 .service-icon-infants{
@@ -187,11 +195,19 @@ nav{
     margin-top: 45px;
 }
 
+.service-icon-infants:hover{
+    transform:scale(1.2);
+}
+
 .service-icon-pets{
     grid-column: 5/6;
     grid-row: 2/3;
     width: 80px;
     margin-top: 20px;
+}
+
+.service-icon-pets:hover{
+    transform:scale(1.2);
 }
 
 
