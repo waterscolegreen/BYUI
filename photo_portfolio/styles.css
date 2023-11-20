@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+header{
+    background-color: #CD92C1;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    margin-top: -8px;
+    margin-left: -8px;
+    position: fixed;
+}
+
+#logo{
+    width: 350px;
+    margin-left:10px;
+    margin-bottom: 5px;
+}
+
+nav{
+    grid-column: 4/9;
+    margin-top: 60px;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Julius Sans One',Arial, Helvetica, sans-serif;
+}
+
+.nav-home{
+    padding-right: 60px;
+    text-decoration: none;
+    color:white;
+}
+
+.nav-home:hover{
+    color:#FFCCCC;
+}
+
+.nav-gallery{
+    padding-right: 60px;
+    text-decoration: none;
+    color:white;
+}
+
+.nav-gallery:hover{
+    color:#FFCCCC;
+}
+
+.nav-contact{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-contact:hover{
+    color:#FFCCCC;
+}
+
+.book-now{
+    grid-column: 10/11;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FFCCCC;
+    border-radius: 12px;
+    box-shadow: #c57fb7 1px 7px 3px
+}
+
+.book-now a{
+    text-decoration: none;
+    color: #c57fb7;
+    font-family: 'Julius Sans One',Arial, Helvetica, sans-serif;
+}
+
+.book-now:hover{
+    background-color: #ffb9b9;
+    color:#cd80be;
+}
+
+/* ------------------ABOUT ME SECTION (HOME PAGE)-------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------FOOTER------------------------------------ */
+
+footer{
+    background-color:#CD92C1;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-right: -8px;
+    margin-left: -8px;
+    height: 100px;
+    color: white;
+}
+
+.copyright{
+    grid-column: 1/4;
+    margin-left:20px;
+    font-family: 'Julius Sans One', sans-serif;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+footer nav{
+    grid-column:4/8;
+    text-align: left;
+}
+
+.footer-site-plan{
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+.footer-site-plan:hover{
+    text-decoration: underline;
+    color: #FFCCCC;
+}
+
+.footer-gallery{
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+.footer-gallery:hover{
+    text-decoration: underline;
+    color: #FFCCCC;
+}
+
+.footer-contact{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contact:hover{
+    text-decoration: underline;
+    color: #FFCCCC;
+}
+
+.social-icon{
+    width:50px;
+    grid-column: 10/11;
+    padding-top: 40px;
+}
