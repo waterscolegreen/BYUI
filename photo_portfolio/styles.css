@@ -271,6 +271,15 @@ nav {
   font-family: "Julius Sans One", sans-serif;
 }
 
+.portrait-packages-title{
+  grid-column: 1/4;
+  margin-top: 230px;
+  margin-bottom: -100;
+  text-align: center;
+  font-size:45px;
+  color: #a16394;
+}
+
 .portraits-30-min {
   grid-column: 1/2;
 }
@@ -279,19 +288,15 @@ nav {
   background-color: #ffcccc;
   padding: 20px;
   padding-bottom: 40px;
-  margin-top: 80px;
-  margin-bottom: 100px;
   border-radius: 15px;
   color: #a16394;
-  box-shadow: 0px 1px 5px #cd80be;
+  box-shadow: 0px 1px 5px #e89595;
 }
 
 .portraits-1-hr-box {
   background-color: #edd0e8;
   padding: 20px;
   padding-bottom: 40px;
-  margin-top: 80px;
-  margin-bottom: 100px;
   border-radius: 15px;
   color: #a16394;
   box-shadow: 0px 1px 5px #cd80be;
@@ -301,11 +306,9 @@ nav {
   background-color: #ffcccc;
   padding: 20px;
   padding-bottom: 40px;
-  margin-top: 80px;
-  margin-bottom: 100px;
   border-radius: 15px;
   color: #a16394;
-  box-shadow: 0px 1px 5px #cd80be;
+  box-shadow: 0px 1px 5px #e89595;
 }
 
 .package-book-button {
@@ -332,6 +335,20 @@ nav {
 
 .package-book-button-pink:hover {
   transform: scale(1.2);
+}
+
+.portraits-mini-shoot{
+  grid-column: 1/4;
+}
+
+.portraits-mini-shoot-box{
+  background-color: #edd0e8;
+  padding: 20px;
+  padding-bottom: 40px;
+  border-radius: 15px;
+  color: #a16394;
+  box-shadow: 0px 1px 5px #cd80be;
+  margin-bottom: 100px;
 }
 
 /* --------------------------------FOOTER------------------------------------ */
