@@ -1,291 +1,331 @@
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 
-header{
-    background-color: #CD92C1;
-    display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
-    margin-top: -8px;
-    margin-left: -8px;
-    position: fixed;
+header {
+  background-color: #cd92c1;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  margin-top: -8px;
+  margin-left: -8px;
+  position: fixed;
 }
 
-#logo{
-    width: 350px;
-    margin-left:10px;
-    margin-bottom: 5px;
+#logo {
+  width: 350px;
+  margin-left: 10px;
+  margin-bottom: 5px;
 }
 
-nav{
-    grid-column: 4/9;
-    margin-top: 60px;
-    text-align: right;
-    font-size: 20px;
-    font-family: 'Julius Sans One',Arial, Helvetica, sans-serif;
+nav {
+  grid-column: 4/9;
+  margin-top: 60px;
+  text-align: right;
+  font-size: 20px;
+  font-family: "Julius Sans One", Arial, Helvetica, sans-serif;
 }
 
-.nav-home{
-    padding-right: 60px;
-    text-decoration: none;
-    color:white;
+.nav-home {
+  padding-right: 60px;
+  text-decoration: none;
+  color: white;
 }
 
-.nav-home:hover{
-    color:#FFCCCC;
+.nav-home:hover {
+  color: #ffcccc;
 }
 
-.nav-gallery{
-    padding-right: 60px;
-    text-decoration: none;
-    color:white;
+.nav-gallery {
+  padding-right: 60px;
+  text-decoration: none;
+  color: white;
 }
 
-.nav-gallery:hover{
-    color:#FFCCCC;
+.nav-gallery:hover {
+  color: #ffcccc;
 }
 
-.nav-contact{
-    text-decoration: none;
-    color:white;
+.nav-contact {
+  text-decoration: none;
+  color: white;
 }
 
-.nav-contact:hover{
-    color:#FFCCCC;
+.nav-contact:hover {
+  color: #ffcccc;
 }
 
-.book-now{
-    grid-column: 10/11;
-    margin: auto;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 20px;
-    background-color: #FFCCCC;
-    border-radius: 12px;
-       box-shadow: inset 0px 5px 10px 0px #f0a8a8;
+.book-now {
+  grid-column: 10/11;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #ffcccc;
+  border-radius: 12px;
+  box-shadow: inset 0px 5px 10px 0px #f0a8a8;
 }
 
-.book-now a{
-    text-decoration: none;
-    color: #c57fb7;
-    font-family: 'Julius Sans One',Arial, Helvetica, sans-serif;
+.book-now a {
+  text-decoration: none;
+  color: #c57fb7;
+  font-family: "Julius Sans One", Arial, Helvetica, sans-serif;
 }
 
-.book-now:hover{
-    transform: scale(1.1)
+.book-now:hover {
+  transform: scale(1.1);
 }
 
 /* ------------------ABOUT ME SECTION (HOME PAGE)-------------------- */
 
-.about-me{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 150px 100px 350px 100px;
-    margin-left: 30px;
-    justify-items: center;
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 150px 100px 350px 100px;
+  margin-left: 30px;
+  justify-items: center;
 }
 
-.about-me-background-box{
-    background-color: #EDD0E8;
-    grid-row: 2/5;
-    grid-column: 1/6;
-    width: 870px;
-    height: 400px;
-    margin-top: 75px;
-    /* margin-left: 250px; */
-    /* box-shadow: inset 0px 5px 15px 0px #d7a0cc; */
-    box-shadow: 0px 1px 5px #cd80be;
-    border-radius: 15px;
+.about-me-background-box {
+  background-color: #edd0e8;
+  grid-row: 2/5;
+  grid-column: 1/6;
+  width: 870px;
+  height: 400px;
+  margin-top: 75px;
+  box-shadow: 0px 1px 5px #cd80be;
+  border-radius: 15px;
 }
 
-.profile-img{
-    border-radius: 50%;
-    grid-column: 2/4;
-    grid-row: 3/4;
-    width: 250px;
-    /* margin-left: 110px; */
-    margin-top: 50px;
-    border: 3px solid #d7a0cc;
+.profile-img {
+  border-radius: 50%;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  width: 250px;
+  /* margin-left: 110px; */
+  margin-top: 50px;
+  border: 3px solid #d7a0cc;
 }
 
-.home-title{
-    grid-column: 3/5;
-    grid-row: 3/4;
-    margin-left: 120px;
-    margin-top: 80px;
-    font-family: "julius Sans One", sans-serif;
-    font-size: 32px;
-    color: #c57fb7;
+.home-title {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  margin-left: 120px;
+  margin-top: 80px;
+  font-family: "julius Sans One", sans-serif;
+  font-size: 32px;
+  color: #c57fb7;
 }
 
-.introduction{
-    grid-column: 3/5;
-    grid-row: 3/4;
-    /* margin-left: 135px; */
-    margin-top: 130px;
-    font-family: "julius Sans One", sans-serif;
-    color: white;
+.introduction {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  /* margin-left: 135px; */
+  margin-top: 130px;
+  font-family: "julius Sans One", sans-serif;
+  color: white;
 }
 
-.home-contact-button{
-    grid-column: 3/5;
-    grid-row: 3/4;
-    margin-top: 190px;
-    height: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    font-family: "julius Sans One", sans-serif;
-    text-decoration: none;
-    background-color: #c286b6;
-    color: white;
-    box-shadow: inset 0px 5px 15px 0px #c57fb7;
-    border-radius: 8px;
+.home-contact-button {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  margin-top: 190px;
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  font-family: "julius Sans One", sans-serif;
+  text-decoration: none;
+  background-color: #c286b6;
+  color: white;
+  box-shadow: inset 0px 5px 15px 0px #a16394;
+  border-radius: 8px;
 }
 
-.home-contact-button:hover{
-    transform: scale(1.1)
+.home-contact-button:hover {
+  transform: scale(1.1);
 }
-
 
 /* ___________________________________Services box on home page________________________________ */
 
-.services{
-    display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
-    grid-template-rows: 150px 150px 100px;
-    grid-gap: 20px;
-    justify-items: center;
+.services {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+  grid-template-rows: 150px 150px 100px;
+  grid-gap: 20px;
+  justify-items: center;
 }
 
-.services-title{
-    grid-column: 2/6;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
-    color: #FFCCCC
+.services-title {
+  grid-column: 2/6;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  color: #ffcccc;
 }
 
-.service-icon-portraits{
-    grid-column: 2/3;
-    grid-row: 2/3;
-    width: 100px;
-    justify-items: center;
+.portraits-link {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  text-decoration: none;
+  color: #cd92c1;
+  font-family: "Julius Sans One", sans-serif;
 }
 
-.service-icon-portraits:hover{
-    transform:scale(1.2);
+.service-icon-portraits {
+  width: 100px;
+  justify-items: center;
 }
 
-.service-icon-families{
-    grid-column: 3/4;
-    grid-row: 2/3;
-    width: 100px;
+.service-icon-portraits:hover {
+  transform: scale(1.2);
 }
 
-.service-icon-families:hover{
-    transform:scale(1.2);
+.families-link {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  text-align: center;
+  text-decoration: none;
+  color: #cd92c1;
+  font-family: "Julius Sans One", sans-serif;
 }
 
-.service-icon-infants{
-    grid-column: 4/5;
-    grid-row: 2/3;
-    width: 60px;
-    margin-top: 45px;
+.service-icon-families {
+  width: 100px;
 }
 
-.service-icon-infants:hover{
-    transform:scale(1.2);
+.service-icon-families:hover {
+  transform: scale(1.2);
 }
 
-.service-icon-pets{
-    grid-column: 5/6;
-    grid-row: 2/3;
-    width: 80px;
-    margin-top: 20px;
+.infants-link {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  text-align: center;
+  text-decoration: none;
+  color: #cd92c1;
+  font-family: "Julius Sans One", sans-serif;
+  margin-top: -5px;
 }
 
-.service-icon-pets:hover{
-    transform:scale(1.2);
+.service-icon-infants {
+  width: 60px;
+  margin-top: 45px;
 }
 
+.service-icon-infants:hover {
+  transform: scale(1.2);
+}
 
+.pets-link {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  text-align: center;
+  text-decoration: none;
+  color: #cd92c1;
+  font-family: "Julius Sans One", sans-serif;
+}
 
+.service-icon-pets {
+  width: 80px;
+  margin-top: 20px;
+}
 
+.service-icon-pets:hover {
+  transform: scale(1.2);
+}
 
+/* _________________________________Contact Page___________________________________ */
 
+.contact-box {
+  color: #a16394;
+  font-family: "Julius Sans One", sans-serif;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px 150px 150px 150px 150px;
+}
 
+.contact-info-box {
+  grid-column: 3/8;
+  grid-row: 3/6;
+  background-color: #ffcccc;
+  border-radius: 15px;
+  box-shadow: 0px 1px 5px #cd80be;
+  padding-top: 25px;
+  text-align: center;
+}
 
-
-
-
+.contact_profile-img {
+  width: 200px;
+}
 
 /* --------------------------------FOOTER------------------------------------ */
 
-footer{
-    background-color:#CD92C1;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    margin-right: -8px;
-    margin-left: -8px;
-    height: 100px;
-    color: white;
+footer {
+  background-color: #cd92c1;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin-right: -8px;
+  margin-left: -8px;
+  height: 100px;
+  color: white;
+  margin-bottom: -20px;
 }
 
-.copyright{
-    grid-column: 1/4;
-    margin-left:20px;
-    font-family: 'Julius Sans One', sans-serif;
-    padding-top: 40px;
-    font-size: 20px;
+.copyright {
+  grid-column: 1/4;
+  margin-left: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  padding-top: 40px;
+  font-size: 20px;
 }
 
-footer nav{
-    grid-column:4/8;
-    text-align: left;
+footer nav {
+  grid-column: 4/8;
+  text-align: left;
 }
 
-.footer-site-plan{
-    text-decoration: none;
-    color: white;
-    padding-right: 40px;
+.footer-site-plan {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
 }
 
-.footer-site-plan:hover{
-    text-decoration: underline;
-    color: #FFCCCC;
+.footer-site-plan:hover {
+  text-decoration: underline;
+  color: #ffcccc;
 }
 
-.footer-gallery{
-    text-decoration: none;
-    color: white;
-    padding-right: 40px;
+.footer-gallery {
+  text-decoration: none;
+  color: white;
+  padding-right: 40px;
 }
 
-.footer-gallery:hover{
-    text-decoration: underline;
-    color: #FFCCCC;
+.footer-gallery:hover {
+  text-decoration: underline;
+  color: #ffcccc;
 }
 
-.footer-contact{
-    text-decoration: none;
-    color: white;
+.footer-contact {
+  text-decoration: none;
+  color: white;
 }
 
-.footer-contact:hover{
-    text-decoration: underline;
-    color: #FFCCCC;
+.footer-contact:hover {
+  text-decoration: underline;
+  color: #ffcccc;
 }
 
-.social-icon{
-    width:50px;
-    grid-column: 10/11;
-    padding-top: 40px;
-    opacity: 65%;
+.social-icon {
+  width: 50px;
+  grid-column: 10/11;
+  padding-top: 40px;
+  opacity: 65%;
 }
 
-.social-icon:hover{
-    opacity: 100%;
-    transform: scale(1.1);
+.social-icon:hover {
+  opacity: 100%;
+  transform: scale(1.1);
 }
