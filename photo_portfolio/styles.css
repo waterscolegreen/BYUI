@@ -63,7 +63,7 @@ nav{
     font-size: 20px;
     background-color: #FFCCCC;
     border-radius: 12px;
-    box-shadow: #c57fb7 1px 7px 3px
+       box-shadow: inset 0px 5px 10px 0px #f0a8a8;
 }
 
 .book-now a{
@@ -73,17 +73,126 @@ nav{
 }
 
 .book-now:hover{
-    background-color: #ffb9b9;
-    color:#cd80be;
+    transform: scale(1.1)
 }
 
 /* ------------------ABOUT ME SECTION (HOME PAGE)-------------------- */
 
+.about-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 100px 350px 100px;
+    margin-left: 30px;
+    justify-items: center;
+}
+
+.about-me-background-box{
+    background-color: #EDD0E8;
+    grid-row: 2/5;
+    grid-column: 1/6;
+    width: 870px;
+    height: 400px;
+    margin-top: 75px;
+    /* margin-left: 250px; */
+    /* box-shadow: inset 0px 5px 15px 0px #d7a0cc; */
+    box-shadow: 0px 1px 5px #cd80be;
+    border-radius: 15px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    width: 250px;
+    /* margin-left: 110px; */
+    margin-top: 50px;
+    border: 3px solid #d7a0cc;
+}
+
+.home-title{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    margin-left: 120px;
+    margin-top: 80px;
+    font-family: "julius Sans One", sans-serif;
+    font-size: 32px;
+    color: #c57fb7;
+}
+
+.introduction{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    /* margin-left: 135px; */
+    margin-top: 130px;
+    font-family: "julius Sans One", sans-serif;
+    color: white;
+}
+
+.home-contact-button{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    margin-top: 190px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-family: "julius Sans One", sans-serif;
+    text-decoration: none;
+    background-color: #c286b6;
+    color: white;
+    box-shadow: inset 0px 5px 15px 0px #c57fb7;
+    border-radius: 8px;
+}
+
+.home-contact-button:hover{
+    transform: scale(1.1)
+}
 
 
+/* ___________________________________Services box on home page________________________________ */
 
+.services{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1.5fr;
+    grid-template-rows: 150px 150px 100px;
+    grid-gap: 20px;
+    justify-items: center;
+}
 
+.services-title{
+    grid-column: 2/6;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #FFCCCC
+}
 
+.service-icon-portraits{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100px;
+    justify-items: center;
+}
+
+.service-icon-families{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100px;
+}
+
+.service-icon-infants{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    width: 60px;
+    margin-top: 45px;
+}
+
+.service-icon-pets{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    width: 80px;
+    margin-top: 20px;
+}
 
 
 
@@ -157,4 +266,10 @@ footer nav{
     width:50px;
     grid-column: 10/11;
     padding-top: 40px;
+    opacity: 65%;
+}
+
+.social-icon:hover{
+    opacity: 100%;
+    transform: scale(1.1);
 }
