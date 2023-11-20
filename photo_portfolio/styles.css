@@ -260,6 +260,82 @@ nav {
   width: 200px;
 }
 
+/*________________________Portraits___________________________*/
+
+#portrait-packages-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.portraits-30-min {
+  grid-column: 1/2;
+}
+
+.portraits-30-min-box {
+  background-color: #ffcccc;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  color: #a16394;
+  box-shadow: 0px 1px 5px #cd80be;
+}
+
+.portraits-1-hr-box {
+  background-color: #edd0e8;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  color: #a16394;
+  box-shadow: 0px 1px 5px #cd80be;
+}
+
+.portraits-2-hr-box {
+  background-color: #ffcccc;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  color: #a16394;
+  box-shadow: 0px 1px 5px #cd80be;
+}
+
+.package-book-button {
+  text-decoration: none;
+  background-color: #c286b6;
+  color: white;
+  box-shadow: inset 0px 5px 15px 0px #a16394;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+.package-book-button:hover {
+  transform: scale(1.2);
+}
+
+.package-book-button-pink {
+  text-decoration: none;
+  background-color: #ffcccc;
+  color: white;
+  box-shadow: inset 0px 5px 15px 0px #f0a8a8;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+}
+
+.package-book-button-pink:hover {
+  transform: scale(1.2);
+}
+
 /* --------------------------------FOOTER------------------------------------ */
 
 footer {
